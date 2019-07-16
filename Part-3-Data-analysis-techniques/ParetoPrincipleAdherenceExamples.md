@@ -1,17 +1,11 @@
 # **Pareto principle adherence examples**
 
-Anton Antonov   
-[MathematicaForPrediction blog at WordPress](https://mathematicaforprediction.wordpress.com/)   
-[MathematicaForPrediction project at GitHub](https://github.com/antononcube/MathematicaForPrediction)   
-March 2016   
-July 2016   
-October 2016   
-
 ## Introduction
 
-This document is made to provide examples of the Pareto principle manifestation in different datasets.
+This chapter provides examples of the Pareto principle manifestation in different datasets.
 
-The [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) is an interesting law that manifests in many contexts. It is also known as "Pareto law", "the law of significant few", "the 80-20 rule".
+The [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) is an interesting law that manifests in many contexts. 
+It is also known as "Pareto law", "the law of significant few", "the 80-20 rule".
 
 For example: 
 
@@ -38,13 +32,18 @@ In order to test for the manifestation of the Pareto principle we have to (i) so
 
 [![GDPPlot1][2]][2]
 
-In this document we are going to use the special function `ParetoLawPlot` defined in the next section and the package \[[1](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m)\]. Most of the examples use data that is internally accessible within *Mathematica*. Several external data examples are considered. 
+In this chapter we are going to use the special function `ParetoLawPlot` defined in the next section and the package 
+\[[1](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m)\]. 
+Most of the examples use data that is internally accessible within *Mathematica*. Several external data examples are considered. 
 
-See the package \[[1](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m)\] for the function `RecordsSummary`. See the source file \[2\] for R functions that facilitate the plotting of Pareto principle graphs. See the package \[[3](https://github.com/antononcube/MathematicaForPrediction/blob/master/OutlierIdentifiers.m)\] for the outlier detection functions used below.
+See the package \[[1](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m)\] for the function `RecordsSummary`. 
+See the source file \[2\] for R functions that facilitate the plotting of Pareto principle graphs. 
+See the package \[[3](https://github.com/antononcube/MathematicaForPrediction/blob/master/OutlierIdentifiers.m)\] for the outlier detection functions used below.
 
 ## Definitions
 
-This simple function makes a list plot that would help assessing the manifestation of the Pareto principle. It takes the same options as `ListPlot`. 
+This simple function makes a list plot that would help assessing the manifestation of the Pareto principle. 
+It takes the same options as `ListPlot`. 
 
     Clear[ParetoLawPlot]
     Options[ParetoLawPlot] = Options[ListPlot];
@@ -78,7 +77,7 @@ Below we are going to use the metric system of units. (If preferred we can easil
 
 ## CountryData
 
-We are going to consider a typical Pareto principle example -- weatlh of income distribution.
+We are going to consider a typical Pareto principle example -- wealth of income distribution.
 
 ### GDP
 
@@ -239,7 +238,8 @@ Here is the *logarithmic* histogram of the lengths:
 
 ## LakeData
 
-The following code gathers the data and make the Pareto plots surface areas, volumes, and fish catch values for lakes. We can that the lakes volumes show exaggerated Pareto principle.
+The following code gathers the data and make the Pareto plots surface areas, volumes, and fish catch values for lakes. 
+We can that the lakes volumes show exaggerated Pareto principle.
 
     lakeAreas = LakeData[All, "SurfaceArea"];
     lakeVolumes = LakeData[All, "Volume"];
@@ -274,7 +274,7 @@ The following grid of Pareto principle plots is for areas and population sizes o
 ## Movie ratings in MovieLens datasets
 
 Looking into the [MovieLens 20M dataset](http://grouplens.org/datasets/movielens/20m/), \[[6](http://grouplens.org/datasets/movielens/20m/)\], 
-we can see that the Pareto princple holds for (1) most rated movies and (2) most active users.
+we can see that the Pareto principle holds for (1) most rated movies and (2) most active users.
 We can also see the manifestation of an exaggerated Pareto law -- 90% of all ratings are for 10% of the movies.
 
 !["MovieLens20M-MDensity-and-Pareto-plots"][25]
@@ -291,11 +291,17 @@ adhere to the Pareto principle: the first 20% of (the unique) most frequently us
 
 ## References
 
-\[1\] Anton Antonov, ["MathematicaForPrediction utilities"](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m), (2014), source code [MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction),  https://github.com/antononcube/MathematicaForPrediction, package [MathematicaForPredictionUtilities.m](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m).
+\[1\] Anton Antonov, ["MathematicaForPrediction utilities"](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m), 
+(2014), 
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
 
-\[2\] Anton Antonov, Pareto principle functions in R, source code [MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction),  https://github.com/antononcube/MathematicaForPrediction, source code file ParetoLawFunctions.R .
+\[2\] Anton Antonov, [Pareto Principle adherence functioncs, R-package](https://github.com/antononcube/R-packages/tree/master/ParetoPrincipleAdherence), 
+(2019)
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
 
-\[3\] Anton Antonov, [Implementation of one dimensional outlier identifying algorithms in Mathematica](https://github.com/antononcube/MathematicaForPrediction/blob/master/OutlierIdentifiers.m), (2013), MathematicaForPrediction at GitHub, URL: https://github.com/antononcube/MathematicaForPrediction/blob/master/OutlierIdentifiers.m .
+\[3\] Anton Antonov, [Implementation of one dimensional outlier identifying algorithms in Mathematica](https://github.com/antononcube/MathematicaForPrediction/blob/master/OutlierIdentifiers.m), 
+(2013), 
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
 
 \[4\] Wikipedia entry, ["Pareto principle"](https://en.wikipedia.org/wiki/Pareto_principle), URL: https://en.wikipedia.org/wiki/Pareto_principle .
 
