@@ -12,7 +12,7 @@
 1) We start with Data Science market diagnosis and general strategies for problem solving.
 2) Then we proceed with didactic chapters for:
    - doing data analysis, and
-   - explanations fundamental Machine Learning (ML) algorithms.
+   - explanations of fundamental Machine Learning (ML) algorithms.
 3) Then we give practical know-how for tackling certain ML problems variations of which often occur.
 4) Finally, we show some "shock and awe" projects.
 *** TODO Who is the intended reader?
