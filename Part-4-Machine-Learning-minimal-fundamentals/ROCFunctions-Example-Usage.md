@@ -3,9 +3,13 @@
 
 ## Introduction
 
-The package \[[2](https://github.com/antononcube/MathematicaForPrediction/blob/master/ROCFunctions.m)\] provides Mathematica implementations of [Receiver Operating Characteristic](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) (ROC) functions calculation and plotting. The ROC framework is used for analysis and tuning of binary classifiers, \[[3](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)\]. (The classifiers are assumed to classify into a positive/true label or a negative/false label. )
+The package \[[2](https://github.com/antononcube/MathematicaForPrediction/blob/master/ROCFunctions.m)\] provides Mathematica implementations of 
+[Receiver Operating Characteristic](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) (ROC) functions calculation and plotting. 
+The ROC framework is used for analysis and tuning of binary classifiers, \[[3](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)\]. 
+(The classifiers are assumed to classify into a positive/true label or a negative/false label. )
 
-The function `ROCFuntions` gives access to the individual ROC functions through string arguments. Those ROC functions are applied to special objects, called ROC Association objects.
+The function `ROCFuntions` gives access to the individual ROC functions through string arguments. 
+Those ROC functions are applied to special objects, called ROC Association objects.
 
 Each ROC Association object is an `Association` that has the following four keys: "TruePositive", "FalsePositive", "TrueNegative", and "FalseNegative" .
 
@@ -15,7 +19,8 @@ For more definitions and example of ROC terminology and functions see \[[3](http
 
 ## Minimal example
 
-Note that here although we use both of the provided Titanic training and test data, the code is doing only training. The test data is used to find the best tuning parameter (threshold) through ROC analysis.
+Note that here although we use both of the provided Titanic training and test data, the code is doing only training. 
+The test data is used to find the best tuning parameter (threshold) through ROC analysis.
 
 ### Get packages
 
