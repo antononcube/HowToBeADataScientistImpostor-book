@@ -2,17 +2,9 @@
 
 ## Importance of variables investigation using Classifiers, Mosaic plots, Decision trees, Association rules, and Dimension reduction
 
-Anton Antonov  
-[MathematicaForPrediction blog at WordPress](https://mathematicaforprediction.wordpress.com)  
-[MathematicaForPrediction blog at GitHub](https://github.com/antononcube/MathematicaForPrediction)  
-December 2015  
-January 2016  
-
-Version 1.0
-
 ## Introduction
 
-The document is meant to serve as a guide for variable importance finding and it is organized to have the flow and corresponding explanations in parallel for the two datasets, "Titanic" and "Mushroom".
+The chapter is meant to serve as a guide for variable importance finding and it is organized to have the flow and corresponding explanations in parallel for the two datasets, "Titanic" and "Mushroom".
 
 One of the questions that would follow the formulation of a classification problem for a given data set is which variables are most important for the correct classification to the class labels. 
 
@@ -28,7 +20,12 @@ We can ask the following questions:
 
 This guide is mostly about answering the first question. The second question is answered in order to validate the answers for the first.
 
-In the blog post ["Classification and association rules for census income data"](https://mathematicaforprediction.wordpress.com/2014/03/30/classification-and-association-rules-for-census-income-data/), \[[2](https://mathematicaforprediction.wordpress.com/2014/03/30/classification-and-association-rules-for-census-income-data/)\], I have described a procedure for determining variable importance that answers similar questions. The procedure builds a classifier with the training data, damages the test data in a systematic way for each variable, and compares the "damage effects", i.e. how much worse the classifier performs over the damaged test data. The variables that produce worst results are considered most important.
+In the chapter ["Classification and association rules for census income data"](https://mathematicaforprediction.wordpress.com/2014/03/30/classification-and-association-rules-for-census-income-data/), 
+\[[2](https://mathematicaforprediction.wordpress.com/2014/03/30/classification-and-association-rules-for-census-income-data/)\], 
+I have described a procedure for determining variable importance that answers similar questions. 
+The procedure builds a classifier with the training data, damages the test data in a systematic way for each variable, and compares the "damage effects", 
+i.e. how much worse the classifier performs over the damaged test data. 
+The variables that produce worst results are considered most important.
 
 The procedure is taken from the book "Classification and regression trees", \[1\], largely written by [Leo Breiman](https://en.wikipedia.org/wiki/Leo_Breiman), the great advocate and inventor of [random forests](https://en.wikipedia.org/wiki/Random_forest). The blog post \[[2](https://mathematicaforprediction.wordpress.com/2014/03/30/classification-and-association-rules-for-census-income-data/)\] has examples and a discussion of determining variable importance using two classifiers, Decision Trees, \[[3](https://github.com/antononcube/MathematicaForPrediction/blob/master/AVCDecisionTreeForest.m)\], and Naive Bayesian Classifier (NBC), \[[4](https://github.com/antononcube/MathematicaForPrediction/blob/master/NaiveBayesianClassifier.m)\]. 
 
@@ -39,8 +36,6 @@ In this document two datasets are used -- "Titanic" and "Mushroom" -- to make ex
 *Mathematica*'s versions 10.0 and later have the function [`Classify`](http://reference.wolfram.com/language/ref/Classify.html) that generates classification functions over a variety of data sets. The classifiers in the blog post \[[2](https://mathematicaforprediction.wordpress.com/2014/03/30/classification-and-association-rules-for-census-income-data/)\] were developed before the introduction of `Classify` in *Mathematica*. This document discusses code, \[[8](https://github.com/antononcube/MathematicaForPrediction/blob/master/VariableImportanceByClassifiers.m)\], and applications based on `Classify` and related functions for data partitioning and classifier function querying or invocation.
 
 **Remark:** It should be pointed out that the considered datasets ("Titanic" and "Mushroom") are relatively small and give nice and clean results. Real applications of the described procedures might require preliminary (extensive) data cleaning and normalization before obtaining good classification and variable importance results.
-
-This document has a version number associated with it since it is available at [MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction) and I plan to update and extend it. Another plan I have is to make a version of this document that includes commands in R, or it is entirely written with R and RStudio tools.
 
 ## Datasets
 
