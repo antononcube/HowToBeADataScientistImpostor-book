@@ -13,11 +13,11 @@
 2) Then we proceed with didactic chapters for:
    - doing data analysis, and
    - explanations fundamental Machine Learning (ML) algorithms.
-3) The we give practical know-how for tackling certain ML problems variations of which often occur.
+3) Then we give practical know-how for tackling certain ML problems variations of which often occur.
 4) Finally, we show some "shock and awe" projects.
 *** TODO Who is the intended reader?
 - This book is for the smart and audacious. (Definitely not for dummies...)
-- The reader is expected to have least one fairly well developed relevant skill. 
+- The reader is expected to have at least one fairly well developed relevant skill. 
   - Like the following.
     - Programming ability.
     - Mathematical maturity and reasoning ability.
