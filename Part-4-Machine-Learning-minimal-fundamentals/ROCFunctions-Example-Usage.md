@@ -1,9 +1,5 @@
 # **ROCFunctions example usage**
 
-Anton Antonov  
-[MathematicaForPrediction project at GitHub](https://github.com/antononcube/MathematicaForPrediction/)  
-[MathematicaVsR project at GitHub](https://github.com/antononcube/MathematicaVsR/)  
-October 2016 
 
 ## Introduction
 
@@ -147,13 +143,20 @@ It is also implemented in \[[2](https://github.com/antononcube/MathematicaForPre
 
 ## References
 
-\[1\] Anton Antonov, [MathematicaForPrediction utilities](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m), (2014), source code [MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction), package [MathematicaForPredictionUtilities.m](https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/MathematicaForPredictionUtilities.m).
+\[1\] Anton Antonov, 
+[MathematicaForPrediction utilities](https://github.com/antononcube/MathematicaForPrediction/blob/master/MathematicaForPredictionUtilities.m), 
+(2014), 
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
 
-\[2\] Anton Antonov, [Receiver operating characteristic functions Mathematica package](https://github.com/antononcube/MathematicaForPrediction/blob/master/ROCFunctions.m), (2016), source code [MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction), package [ROCFunctions.m](https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/ROCFunctions.m) .
+\[2\] Anton Antonov, 
+[Receiver operating characteristic functions Mathematica package](https://github.com/antononcube/MathematicaForPrediction/blob/master/ROCFunctions.m), 
+(2016), 
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
 
-\[3\] Wikipedia entry, Receiver operating characteristic. URL: http://en.wikipedia.org/wiki/Receiver_operating_characteristic .
+\[3\] Wikipedia entry, [Receiver operating characteristic](http://en.wikipedia.org/wiki/Receiver_operating_characteristic).
 
-\[4\] Tom Fawcett, [An introduction to ROC analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf), (2006), Pattern Recognition Letters, 27, 861-874.
+\[4\] Tom Fawcett, [An introduction to ROC analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf), 
+(2006), Pattern Recognition Letters, 27, 861-874.
 
 <!---
 [1]:Titanic1.png
