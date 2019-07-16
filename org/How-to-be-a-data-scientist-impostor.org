@@ -1,0 +1,90 @@
+#+TITLE: How to be a data scientist impostor? (book work plan)
+#+AUTHOR: Anton Antonov
+#+EMAIL: antononcube@gmail.com
+#+TODO: TODO ONGOING MAYBE | DONE CANCELED 
+#+OPTIONS: toc:1 num:0
+
+* How to be a data scientist impostor? [%] [/]
+** TODO Introduction [0%] [0/6]
+*** TODO Mission statement
+- The purpose of this book is to give an overview and examples of different philosophical, mathematical, and software programming techniques that would allow the reader to practice Data Science.
+*** TODO Exposition plan
+1) We start with Data Science market diagnosis and general strategies for problem solving.
+2) Then we proceed with didactic chapters for:
+   - doing data analysis, and
+   - explanations fundamental Machine Learning (ML) algorithms.
+3) The we give practical know-how for tackling certain ML problems variations of which often occur.
+4) Finally, we show some "shock and awe" projects.
+*** TODO Who is the intended reader?
+- This book is for the smart and audacious. (Definitely not for dummies...)
+- The reader is expected to have least one fairly well developed relevant skill. 
+  - Like the following.
+    - Programming ability.
+    - Mathematical maturity and reasoning ability.
+    - Mathematical modeling abilities.
+      - Ability to express processes in equations and formulas.
+    - Systems operations knowledge.
+    - Strong Physics or Physical sciences engineering background.
+      - Like Mechanical Engineering, Electrical Engineering, Chemical Engineering ...
+      - Software Engineering does not count here.
+- We assume the reader is inquisitive and willing to jump into the water without knowing how to swim.
+*** TODO Personal Data Scientist path
+*** TODO Personal biases
+*** TODO The Game Theory perspective
+** TODO Part 1 -- General directions and orientation [%] [/]
+*** TODO Why do you want to be a data scientist ?
+*** TODO Market perspective / view
+*** TODO Keeping records
+*** TODO Learning Machine Learning
+*** TODO Machine Learning vs Statistics
+*** TODO The personas to consider
+- [ ] Simple Nuclear Physicist (SNP).
+- [ ] Common Operations Research Analyst (CORA).
+- [ ] Standard Machine Learning Engineer (SMLE).
+- [ ] Statistician pretending to be a Data Scientist.
+** TODO Part 2 -- Solution strategies [0%] [0/5]
+*** TODO Formulating the problem
+*** TODO For open problems
+*** TODO For well defined problems
+*** TODO On winning arguments
+*** TODO Morphological Analysis
+** TODO Part 3 -- Data Analysis techniques [%] [/]
+*** TODO What is the right impression?
+*** TODO Data summarization
+*** TODO Contingency matrices
+*** TODO Mosaic plots
+*** TODO Data transformations
+- [ ] Star schema, long form.
+- [ ] Wide form.
+- [ ] SQL.
+- [ ] Data packages.
+*** TODO Pareto Principle adherence
+** TODO Part 4 -- Machine Learning minimal fundamentals [%] [/]
+*** TODO What is the right impression?
+*** TODO Association rules mining
+*** TODO What methods to apply to what forms of data?
+*** TODO Linear vector space representation
+- [ ] Similarity.
+*** TODO Clustering
+- [ ] K-means.
+- [ ] Bi-sectional.
+*** TODO Quantile Regression
+*** TODO Dimension reduction
+- [ ] SVD
+- [ ] NNMF
+- [ ] ICA
+** TODO Part 5 -- Practical know-how [%] [/]
+*** TODO Importance of variables
+*** TODO Recommenders based on Nearest Neighbors
+*** TODO Text mining
+- [ ] Using LSI and LSA.
+- [ ] Topic extraction.
+*** TODO Classification
+- General workflow.
+- ROC.
+** TODO Code of projects [%] [/]
+*** TODO Repositories
+*** TODO Mathematica / WL Code
+*** TODO R code
+*** TODO Mathematica vs R projects
+
