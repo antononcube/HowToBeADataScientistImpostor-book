@@ -1,25 +1,23 @@
 # Applying Artificial Intelligence and Machine Learning to Finance and Technology 
 
-Anton Antonov   
-[MathematicaForPrediction at WordPress](https://mathematicaforprediction.wordpress.com)   
-[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction)   
-February, 2018
-
 ## Introduction
 
-In this blog post I try to provide some further context for the panel discussion:
+In this chapter I try to provide some further context for the panel discussion:
 
 [**"Artificial Intelligence and Machine Learning application in finance and technology"**](https://youtu.be/mcyg25Ay_xs),
 
 which was part of the conference ["Data Science Salon Miami 2018"](https://datascience.salon/miami/) held in Miami on February 8 and 9.
 
-The blog post can be read independently, but my intent is to provide a brief review of the discussion and further context to (some of) the answers. (It is probably better to see [discussion's recording](https://youtu.be/mcyg25Ay_xs) first.)
+The chapter can be read independently, but my intent is to provide a brief review of the discussion and further context to (some of) the answers. 
+(It is probably better to see [discussion's recording](https://youtu.be/mcyg25Ay_xs) first.)
 
 Also, my comments and remarks are saturated with links for reference and further reading. 
 
-You can also read [the post by panel's discussion host, Irma Becerra](https://www.linkedin.com/pulse/data-science-changing-our-lives-better-irma-becerra-fernandezphd/).
-
-This blog post is not written by someone particularly enamored by [Artificial Intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence), [Data Science (DS)](https://en.wikipedia.org/wiki/Data_science), or [Machine Learning (ML)](https://en.wikipedia.org/wiki/Machine_learning). I do like working in those disciplines, but I do think there are more interesting and fascinating mathematical disciplines than them. Also, I think AI, DS, and ML should be seen through the lens of [Operations Research](https://en.wikipedia.org/wiki/Operations_research), which gives the most fruitful perspectives of their utilization. 
+Keep in mind that this book is not written by someone particularly enamored by 
+[Artificial Intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence), 
+[Data Science (DS)](https://en.wikipedia.org/wiki/Data_science), or 
+[Machine Learning (ML)](https://en.wikipedia.org/wiki/Machine_learning). 
+I do like working in those disciplines, but I do think there are more interesting and fascinating mathematical disciplines than them. Also, I think AI, DS, and ML should be seen through the lens of [Operations Research](https://en.wikipedia.org/wiki/Operations_research), which gives the most fruitful perspectives of their utilization. 
 
 
 ### Briefly about the event
