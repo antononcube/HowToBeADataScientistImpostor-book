@@ -2,6 +2,8 @@
 
 This repository has chapters, code, and organizational materials for the book "How to be a data scientist impostor?"
 
+***The book is not finished yet -- it is a work in progress...***
+
 ## Mission statement
 
 The purpose of this book is to give an overview and examples of different philosophical and mathematical methodologies 
