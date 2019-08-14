@@ -4,13 +4,12 @@ This book targets the following four archetypes of Data Science practitioners.
 
 ## Simple Nuclear Physicist (SNP)
 
-The first archetype is the "Simple Nuclear Physicist" (SNP) -- 
-someone who is accustomed to obtaining a lot of data that has to be analyzed and mined sometimes 
-very deeply, rigorously, and from a lot of angles, for different confirmation and rejection of different 
-hypotheses and conjectures.
+SNP someone who is accustomed to obtaining a lot of data that has to be analyzed and mined sometimes 
+very deeply, rigorously, and from a lot of angles, in order to confirm or reject of different 
+hypotheses or conjectures.
  
 SNP is fairly adept in programming and critical thinking, 
-but he does not have or care about deep knowledge of statistical methods or machine learning algorithms.
+but he does not have or care about deep knowledge of statistical methods or Machine Learning algorithms.
  
 SNP is willing and capable to use software libraries that provide algorithms for statistical methods and machine learning.
 
@@ -34,5 +33,5 @@ This guy is a statistician branding himself as a Data Scientist (because of mone
 PTS thinks classical statistical methods are most relevant to the problems given to PTS and 
 PTS is inclined to do data modeling first and then apply the usual statistical methods. 
 
-Not as good of a programmer as the rest of the archetypes listed here.
+PTS is not (expected to be) as good of a programmer as the rest of the archetypes listed here.
 
