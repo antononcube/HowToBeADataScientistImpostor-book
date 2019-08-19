@@ -1,6 +1,6 @@
 # Books to read
 
-***Version 0.6***
+***Version 0.7***
 
 In this chapter I list a small number of books that would provide in my opinion enough of 
 general "data scientist way of thinking" and "data scientist culture" background.
@@ -137,7 +137,29 @@ is written for self-disciplined, maverick, and audacious minds.
 
 ### "Matrix Methods in Data Mining and Pattern Recognition"
 
-One of the best books I have read...
+The book 
+["Matrix Methods in Data Mining and Pattern Recognition"](https://epubs.siam.org/doi/book/10.1137/1.9780898718867), [LE1],
+by Lars Eldén is one of the best and most useful mathematical books I have read.
+
+This is an application-oriented book that describes a few very powerful numerical linear algebra techniques 
+that are available for solving problems in data mining and pattern recognition. 
+
+I have implemented some of those algorithms as Mathematica packages or as parts of Mathematica packages. 
+See [AAp1, AAp2].
+
+Generally speaking, I like to browse/read 
+[Society of Industrial and Applied Mathematics (SIAM)](https://en.wikipedia.org/wiki/Society_for_Industrial_and_Applied_Mathematics) 
+books on any subject.
+
+### Handbook of Applied Algorithms: Solving Scientific, Engineering, and Practical Problems
+
+The book
+[Handbook of Applied Algorithms: Solving Scientific, Engineering, and Practical Problems](https://www.onlinelibrary.wiley.com/doi/book/10.1002/9780470175668), [AH1],
+has concise, insightful, actionable descriptions of fundamental Machine Learning algorithms. 
+(Clustering and frequent data sets.)
+
+I have implemented some of those algorithms as Mathematica packages.
+See [AAp3] that corresponds to the chapter "Data Mining Algorithms II Frequent Item Sets" by Dan A. Simovici.
 
 ### "Guesstimation"
 
@@ -165,6 +187,25 @@ Nice to read....
 
 ## References
 
+[AAp1] Anton Antonov, 
+[Implementation of the Non-Negative Matrix Factorization algorithm in Mathematica](https://github.com/antononcube/MathematicaForPrediction/blob/master/NonNegativeMatrixFactorization.m),
+(2013),
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
+
+[AAp2] Anton Antonov,
+[Monadic latent semantic analysis Mathematica package](https://github.com/antononcube/MathematicaForPrediction/blob/master/MonadicProgramming/MonadicLatentSemanticAnalysis.m),
+(2017),
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
+
+[AAp3] Anton Antonov,
+[Implementation of the Apriori algorithm in Mathematica](https://github.com/antononcube/MathematicaForPrediction/blob/master/AprioriAlgorithm.m),
+(2014),
+[MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).
+
+[AH1] Amiya Nayak and Ivan Stojmenovic (editors),
+[Handbook of Applied Algorithms: Solving Scientific, Engineering, and Practical Problems](https://www.onlinelibrary.wiley.com/doi/book/10.1002/9780470175668),
+Wiley-IEEE Press; 1 edition, 2008). ISBN-13 978-0470044926.
+
 [AR1] Alex Reinhart, Statistics Done Wrong: The Woefully Complete Guide, 
 No Starch Press, 2015. ISBN-13 978-1593276201.
 
@@ -173,7 +214,7 @@ No Starch Press, 2015. ISBN-13 978-1593276201.
 [DS1] David Skillicorn, Understanding Complex Datasets: Data Mining with Matrix Decompositions.
 Chapman and Hall/CRC (Chapman & Hall/CRC Data Mining and Knowledge Discovery Series), 2007. ISBN-13 978-1584888321.
 
-[GP1] George Polya, How to Solve It, 2nd ed., Princeton University Press, 1957, ISBN 0-691-08097-6
+[GP1] George Polya, How to Solve It, 2nd ed., Princeton University Press, 1957, ISBN 0-691-08097-6.
 
 [JS1] Jeff Schmidt, Disciplined Minds: A Critical Look at Salaried Professionals and the Soul-Battering System that Shapes Their Lives. 
 Rowman & Littlefield, 2000. ISBN 978-0-8476-9364-1.
@@ -185,6 +226,9 @@ W. W. Norton & Company; Fully Revised edition, 2018. ISBN-13 978-0393652376.
 
 [LB1] Leo Breiman, Jerome H. Friedman, Richard A. Olshen, Charles J. Stone, 
 Classification and Regression Trees. Wadsworth Publishing, 1983. ISBN-13 978-0534980542.
+
+[LA1] Lars Eldén, Matrix Methods in Data Mining and Pattern Recognition, 
+SIAM, 2007. ISBN 978-0-89871-626-9.
 
 [LW1] Lawrence Weinstein, and John A. Adam. Guesstimation: Solving the World's Problems on the Back of a Cocktail Napkin. 
 Princeton University Press, 2008. JSTOR, www.jstor.org/stable/j.ctt7sgcs.
