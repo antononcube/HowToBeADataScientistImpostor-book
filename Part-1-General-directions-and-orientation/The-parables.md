@@ -5,6 +5,8 @@ The following parables illustrate some important "dos and don'ts" in Data Scienc
 
 ## Teaching the son of the shah 
 
+*(Read long time ago in \[1\].)*
+
 A shah asked his wise-men to teach his son their sciences.
 
 After a few years the shah wanted to make an examination in order to see what his son has learned.
@@ -42,6 +44,8 @@ but from the perspectives of projects stakeholders the finishing of the calculat
 
 ## Marriage instead of dept pay
 
+*(Read long time ago in \[1\].)*
+
 TBD...
 
 ### Morals
@@ -58,9 +62,37 @@ In sufficiently many situations:
  
 ## The big rocks in the jar
 
-See the movie ["Big Rocks"](https://www.youtube.com/watch?v=8FbWb3f-jLQ).
+See the 5 minutes long movie ["Big Rocks"](https://www.youtube.com/watch?v=8FbWb3f-jLQ).
+
+If you cannot or do not want to see the movie here is a short version.
+
+Assume that 
+
+- you have an empty jar,
+
+- a set of big rocks, a set of stones (smaller rocks), sand, and
+
+- for some reason you want to put all the rocks and sand in the jar.
+
+Then 
+
+- you put in the jar the big rocks first,
+
+- then you put the smaller rocks, and
+
+- finally the sand.
+
+If you try any other order of those actions you won't have the maximum possible amount of rocks, stones, and sand in the jar. 
 
 ### Morals
 
 Trivial parable but the expression "the big rocks" is used a lot and often by managers in order to describe
 triage and priority of tasks.
+
+
+## References
+
+\[1\] Георгиева, Й., Милев, Й., 
+Медресе на смеха: Стихотворни летописи, лирически сентенции и афоризми от източни мъдреци и автори,
+Народна култура, Библиотека "Панорама", 1977.
+
