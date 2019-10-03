@@ -40,15 +40,6 @@ Notice that shah's son said that he is finished after he finished the calculatio
 a guess based on the calculations result. Some data scientist have similar timing of declaring victory;
 but from the perspectives of projects stakeholders the finishing of the calculations is just the beginning...  
 
-## The big rocks in the jar
-
-See the movie ["Big Rocks"](https://www.youtube.com/watch?v=8FbWb3f-jLQ).
-
-### Morals
-
-Trivial parable but the expression "the big rocks" is used a lot and often by managers in order to describe
-triage of tasks or prioritization of tasks. 
-
 ## Marriage instead of dept pay
 
 TBD...
@@ -57,10 +48,19 @@ TBD...
 
 In sufficiently many situations:
  
+- rapid scenarios play-out is extremely beneficial,
+
 - one can find more effective solutions outside of the obvious plane derived by some dichotomy (like right-wrong or fair-unfair), 
  
-- it is better to utilize "the system" against itself,
+- it is better to utilize "the system" against itself, 
+  especially when direct confrontation is not going to produce good outcomes.
 
-- especially when direct confrontation is going produce no good outcomes.
  
+## The big rocks in the jar
 
+See the movie ["Big Rocks"](https://www.youtube.com/watch?v=8FbWb3f-jLQ).
+
+### Morals
+
+Trivial parable but the expression "the big rocks" is used a lot and often by managers in order to describe
+triage and priority of tasks.
