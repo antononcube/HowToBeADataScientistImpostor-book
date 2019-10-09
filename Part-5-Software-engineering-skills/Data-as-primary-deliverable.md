@@ -1,40 +1,26 @@
+# Data as a primary deliverable
 
-# Introduction
+## Introduction
 
 This chapter outlines motivation and concrete steps to make the data used by data scientists 
 more usable, accessible, consistent and trustworthy.
 
+**Motivation:** The pre-processed data to which the Machine Learning algorithms are applied to 
+can be seen as a product by itself. Using that perspective will bring desired qualities of the 
+operational datasets and related processes.
+
 The point of view taken in this chapter is that data should be seen as **a primary deliverable**.
 
-Here is a list of related concepts:
+## Related concepts
 
+Here is a list of related concepts are that briefly explained in this section:
 - [Data Governance](https://en.wikipedia.org/wiki/Data_governance),
-
 - [Data Stewardship](https://en.wikipedia.org/wiki/Data_steward),
-
 - [Data Quality](https://en.wikipedia.org/wiki/Data_quality),
-
 - [Data Curation](https://en.wikipedia.org/wiki/Data_curation).
 
-## Data governance maturity models
 
-I do not want to expand or emphasize too much on the
-[Data Governance](https://en.wikipedia.org/wiki/Data_governance)
-maturity models, but at some point any organization making or processing Data Science products has to adopt one of them.
-
-I think the best one to start with (simple and serviceable) is the IBM Data Governance Maturity Model.
-See the article:
-["Getting started with data governance"](ftp://public.dhe.ibm.com/software/data/sw-library/ii/whitepaper/LIW14003USEN.pdf).
-
-# Data as a primary deliverable
-
-## Motivation
-
-The pre-processed data we use for doing Machine Learning algorithms can be seen as a product by itself.
-
-Using that perspective will bring desired qualities of operational datasets and related processes.
-
-## Data governance
+### Data governance
 
 The following questions belong to the Data Governance domain.
 
@@ -57,7 +43,17 @@ The following questions belong to the Data Governance domain.
 
 - Replace "who" above with "which process" or "which tools".
 
-## Data stewardship and data quality
+### Data governance maturity models
+
+I do not want to expand or emphasize too much on the
+[Data Governance](https://en.wikipedia.org/wiki/Data_governance)
+maturity models, but at some point any organization making or processing Data Science products has to adopt one of them.
+
+I think the best one to start with (simple and serviceable) is the IBM Data Governance Maturity Model.
+See the article:
+["Getting started with data governance"](ftp://public.dhe.ibm.com/software/data/sw-library/ii/whitepaper/LIW14003USEN.pdf).
+
+### Data stewardship and data quality
 
 - We want to ensure that have processes and protocols that turn data
   gathered from tenants into operational datasets.
@@ -67,7 +63,7 @@ The following questions belong to the Data Governance domain.
 - For each triplet of tenant, data, and operational dataset, we should
   have clear outline of how the operational dataset is going to be used
   to achieve what goals.
-
+  
 ## Concrete steps
 
 ### Gather data from the client
@@ -163,7 +159,7 @@ For example, we can do all of the following:
 
 ## Concrete example
 
-The R package "MathematicaVsRData", \[4\] is a full blown example.
+The R package "MathematicaVsRData", \[4\], is a full blown example.
 
 ## References
 
