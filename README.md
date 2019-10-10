@@ -79,6 +79,14 @@ Many of the chapters were previously published in
 or
 [MathematicaForPrediction at GitHub](https://github.com/antononcube/MathematicaForPrediction).    
 
+This book outsources the detailed explanations of the core Machine Learning workflows to the book
+["Simplified Machine Learning Workflows"](https://github.com/antononcube/SimplifiedMachineLearningWorkflows-book),
+which from its part outsources the software architecture methods explanations to the book
+["Software Design Methods with Wolfram Language"](https://github.com/antononcube/SoftwareDesignMethodsWithWL-book).
+
+Here is a diagram that shows the dependencies between the books and code repositories:
+
+![BookDependencies](https://github.com/antononcube/HowToBeADataScientistImpostor-book/raw/master/Part-1-General-directions-and-orientation/Diagrams/Books-dependencies.jpg)
 
 ## Videos
 
