@@ -26,7 +26,7 @@ CORA has moderate to very good programming skills.
 
 CORA work is used (or should be used) to make core business decisions. (And fringe ones too.)   
 
-## Standard Machine Leaning Engineer (SMLE)
+## Standard Machine Learning Engineer (SMLE)
 
 This guy is a typical Machine Learning practitioner. 
 SMLE uses Machine Learning tools on a regular basis, but does not necessarily use the corresponding mindset.
@@ -47,10 +47,10 @@ This guy is a statistician branding himself as a Data Scientist
 PTSD thinks classical statistical methods are most relevant to the problems given to PTSD and 
 PTSD is inclined to do data modeling first and then apply the usual statistical methods. 
 
-PTSD is not (expected to be) as good of a programmer as the rest of the archetypes listed here.
+PTSD is not (expected to be) as good of a programmer as the archetypes listed above.
 
 PTSD might be really annoyed that the so called Data Scientists and Machine Learning Engineers 
-usurped PTSD's domain of professional interest. (And learning to live with that.)
+usurped PTSD's domain of professional interest. (And PTSD is learning to live with that.)
 
 (Let us point out, though, that if we are dealing with data then *we are* doing Statistics.)
 
