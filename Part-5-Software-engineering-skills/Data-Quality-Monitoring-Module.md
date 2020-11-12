@@ -49,7 +49,12 @@ that can be contracted into:
         
 There are several ways to provide the functionalities behind the monadic pipeline(s) above.
 
-Using Design Patterns like Template Method and Strategy can provide the desired architectural properties.
+Using [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns) 
+like 
+[Template Method](https://en.wikipedia.org/wiki/Template_method_pattern) 
+and 
+[Strategy](https://en.wikipedia.org/wiki/Strategy_pattern) 
+can provide the desired architectural properties.
 
 **Remark:** Each of the pipelines above is "on the spot" written code for Template Method's `abstractAlgorithm`.
 
@@ -66,7 +71,7 @@ The monad object above is observed with Model View Controller pattern.
 
 Here is an observer pipeline (with the same monad):
     
-        DQMonUnit( data-quality-spec, reports-location ) ==>==>
+        DQMonUnit( data-quality-spec, reports-location ) ==>
         DQMonRetrieveSnapshotReports ==>
         DQMonComputeScoreEvolutionStatistics ==>
         DQMonPlotScoreRadarChart ==>
