@@ -4,7 +4,7 @@ This book targets the following five archetypes of Data Science practitioners.
 
 ## Simple Nuclear Physicist (SNP)
 
-SNP someone who is accustomed to obtaining a lot of data that has to be analyzed and mined sometimes 
+SNP is someone who is accustomed to obtaining a lot of data that has to be analyzed and mined sometimes 
 very deeply, rigorously, and from a lot of angles, in order to confirm or reject different 
 hypotheses or conjectures.
  
